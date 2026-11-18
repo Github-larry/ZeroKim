@@ -1,5 +1,5 @@
 # ADR-0001: TypeScript modular monolith on the approved stack
-Status: PROPOSED (awaiting owner "go")
+Status: ACCEPTED (owner approved 2026-11-18)
 ## Decision
 Build from scratch on the stack in the original directive: TypeScript (strict), Node.js 24 LTS (to be VERIFIED in M1),
 pnpm workspaces, Next.js App Router, Fastify, PostgreSQL + Drizzle, Zod, native WebSocket, Lightweight Charts, Vitest,

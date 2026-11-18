@@ -1,5 +1,5 @@
 # ADR-0003: Trade execution is in scope, gated, demo-first
-Status: PROPOSED. Amends the original directive, which listed live execution as out of scope. The owner has asked
+Status: ACCEPTED (owner approved 2026-11-18). Amends the original directive, which listed live execution as out of scope. The owner has asked
 for execution capability; this ADR records that and keeps the original P6 gate.
 ## Decision
 Pipeline: Observe -> Analyse -> Decide -> Risk check -> Execute -> Monitor -> Learn.

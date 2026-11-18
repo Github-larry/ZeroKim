@@ -1,5 +1,5 @@
 # ADR-0004: What we take from Kadima and what we reject
-Status: PROPOSED. Source: text of https://digits.kadimatraders.com/ read on 2026-11-17. Authenticated screens,
+Status: ACCEPTED (owner approved 2026-11-18). Source: text of https://digits.kadimatraders.com/ read on 2026-11-17. Authenticated screens,
 visual design and runtime behaviour were NOT inspected (UNKNOWN).
 ## Adopt (UX ideas)
 Separate Trade / Analysis / Transactions / Settings views; live P/L and win-rate header; session log; resume-or-new

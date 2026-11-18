@@ -1,5 +1,5 @@
 # ADR-0002: Single-owner deployment now, multi-user later
-Status: PROPOSED
+Status: ACCEPTED (owner approved 2026-11-18)
 ## Decision
 Phase 1 serves exactly one owner. No public registration, no invitation UI, no billing, no marketing-first site.
 The owner account is created by a one-time protected CLI command.
