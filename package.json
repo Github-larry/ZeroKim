@@ -1,0 +1,32 @@
+{
+  "name": "zerotrader",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.21.0",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "typecheck": "pnpm -r --workspace-concurrency=1 run typecheck && tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "audit:deps": "pnpm audit --prod",
+    "check": "pnpm run format:check && pnpm run lint && pnpm run typecheck && pnpm run test"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "21.2.4",
+    "@commitlint/config-conventional": "21.2.4",
+    "@eslint/js": "10.0.1",
+    "@types/node": "24.19.2",
+    "eslint": "10.14.0",
+    "husky": "9.1.7",
+    "prettier": "3.9.10",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1",
+    "vite": "7.3.7",
+    "vitest": "5.1.0"
+  }
+}
